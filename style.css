@@ -25,6 +25,16 @@ header{
     height: 100%;
     object-fit: cover;
     opacity: 0.5;
+    animation: zoom 25s;
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 .banner{
@@ -33,6 +43,7 @@ header{
     left: 15%;
 }
 
+
 .banner h2{
     color: rgb(255, 255, 255);
     font-size: 3.5rem;
@@ -40,7 +51,8 @@ header{
     line-height: 1.1;
     font-weight: 500;
     text-shadow: .2rem .3rem 2px rgba(26, 26, 26, 0.8);
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
+    animation: moveBanner 1.5s;
 }
 
 .banner p{
@@ -48,5 +60,33 @@ header{
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
     text-shadow: .2rem .2rem 2px rgba(26, 26, 26, 0.8);
-    margin-bottom: 2rem;
+    margin-bottom: 3.5rem;
+    animation: moveBanner 1.5s;
+}
+
+.banner button{
+    font-family: "Mulish", serif;
+    color: white;
+    background-color: #008bd8;
+    padding: 1rem 3rem;
+    border: none;
+    letter-spacing: .1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: moveBanner 1.2s;
+}
+
+.banner button:hover{
+    color: #1a1a1a;
+}
+
+@keyframes moveBanner{
+    0%{
+        transform: translateY(10rem) rotateY(-90deg);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0) rotateY(0);
+        opacity: 1;
+    }
 }
