@@ -1,0 +1,58 @@
+.rodape{
+    margin-top: 2rem;
+    width: 100%;
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-top: solid 3px black;
+}
+
+.container-rodape{
+    width: 90%;
+    margin: 0 auto;
+    padding: 4.5rem 0rem;
+}
+
+.text1-rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+.text1-rodape a{
+    color: white;
+    text-decoration: none;
+}
+
+.text1-rodape i{
+    color: red;
+}
+
+.text2-rodape{
+    display: flex;
+    float: left;
+    align-items: center;
+    font-family: 'Bebas Neue';
+    color: white;
+    padding: 1rem 0rem;
+}
+
+.text2-rodape a{
+    text-decoration: none;
+    color: #008bd8;
+}
+
+.icons-rodape{
+    display: flex;
+    float: right;
+    align-items: center;
+    padding: 1rem 0rem;
+    font-size: xx-large;
+}
+
+.icons-rodape i{
+    margin-left: 20px;
+    color: white;
+}
