@@ -56,3 +56,33 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
     margin-left: 20px;
     color: white;
 }
+
+.rodape-links {
+    padding-bottom: 3px;
+    padding-left: 3px;
+    margin: 3px;  
+}
+
+.termos {
+    border-radius: 2px;
+    display: inline-flex;
+    font-family: "Bebas Neue";
+    padding: 2px;
+    font-size: 1.4em;
+}
+.privacidade {
+    border-radius: 2px;
+    display: inline-flex;
+    font-family: "Bebas Neue";
+    padding: 2px;
+    font-size: 1.4em;
+}
+a {
+    text-decoration: none;
+    color:  #008bd8;
+}
+.rodape-links p {
+    font-family: 'Poppins';
+    color: black;
+
+}
