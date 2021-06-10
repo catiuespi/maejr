@@ -1,17 +1,13 @@
 .rodape{
     margin-top: 2rem;
     width: 100%;
-    background: #0f0c29;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    border-top: solid 3px black;
+    background: #0a1e3a;  /* fallback for old browsers */
 }
 
 .container-rodape{
     width: 90%;
     margin: 0 auto;
-    padding: 4.5rem 0rem;
+    padding: 1rem 0rem;
 }
 
 .text1-rodape{
@@ -29,16 +25,6 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 .text1-rodape i{
     color: red;
 }
-
-.text2-rodape{
-    display: flex;
-    float: left;
-    align-items: center;
-    font-family: 'Bebas Neue';
-    color: white;
-    padding: 1rem 0rem;
-}
-
 .text2-rodape a{
     text-decoration: none;
     color: #008bd8;
@@ -47,42 +33,57 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 .icons-rodape{
     display: flex;
     float: right;
+    bottom: 0;
     align-items: center;
-    padding: 1rem 0rem;
     font-size: xx-large;
 }
 
 .icons-rodape i{
     margin-left: 20px;
     color: white;
+    transition: color 0.5s;
 }
 
-.rodape-links {
-    padding-bottom: 3px;
-    padding-left: 3px;
-    margin: 3px;  
+.icons-rodape i:hover {
+    color: rgba(255,0,0,0.8);
 }
 
-.termos {
-    border-radius: 2px;
-    display: inline-flex;
-    font-family: "Bebas Neue";
-    padding: 2px;
-    font-size: 1.4em;
-}
-.privacidade {
-    border-radius: 2px;
-    display: inline-flex;
-    font-family: "Bebas Neue";
-    padding: 2px;
-    font-size: 1.4em;
-}
 a {
     text-decoration: none;
-    color:  #008bd8;
+    color: white;
+    font-family: "Poppins";
 }
-.rodape-links p {
-    font-family: 'Poppins';
-    color: black;
+.rodape span{
+    font-family: "Poppins", sans-serif;
+    padding: 10px 5px;
+    color: rgba(255,255,255, 0.6); 
+}
+.rodape-links  {
+    display: flex;
+    flex-direction:column;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.rodape-wrapper {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#inicio {
+    margin-right: 10px;
+}
+#termos {
+    margin-right: 10px;
+}
+
+.links a {
+    transition: background-color 0.5s;
+    border-radius: 5px;
+    padding:0rem 0.5rem;    
+}
+.links a:hover {
+    background-color:rgba(255,0,0,0.8);
 
 }

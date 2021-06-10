@@ -10,7 +10,14 @@
     <title>MAE JR - Página Inicial</title>
 </head>
 <body>
-    <header>
+
+    <div class="hamburguer">
+        <div class="line" id="line1"></div>
+        <div class="line" id="line2"></div>
+        <div class="line" id="line3"></div>
+    </div>
+
+    <header id="cabeçalho">
         <h1 class="logo"><img src="imagens/maejr.png"></h1>
         <div class="hero-banner">
             <div class="img-wrapper">
@@ -24,13 +31,32 @@
         </div>
     </header>
 
+    <div class="sidebar">
+        <nav>
+            <ul class="menu">
+                <li class="menu-item"><a href="#cabeçalho" class="menu-link">Home</a></li>
+                <li class="menu-item"><a href="#sobre" class="menu-link">Sobre Nós</a></li>
+                <li class="menu-item"><a href="#serviços" class="menu-link">Serviços</a></li>
+                <li class="menu-item"><a href="#consultoria" class="menu-link">Consultoria</a></li>
+                <li class="menu-item"><a href="#diretoria" class="menu-link">Diretoria</a></li>
+                <li class="menu-item"><a href="#contato" class="menu-link">Contatos</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Processo Seletivo</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">Blog</a></li>
+            </ul>
+        </nav>
+        <div class="social-media">
+            <a href="https://www.instagram.com/maejunior"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.facebook.com/MaeJrOficial"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+
     <section class="sobre" id="sobre">
         <h2>Sobre Nós</h2>
         <p>A Multi Assessorial Empresarial Júnior é uma associação sem fins lucrativos, com finalidades educacionais na área de Consultoria Empresarial. Entre os principais objetivos, a empresa júnior pretende propiciar ao estudante a oportunidade de aplicar e aprimorar conhecimentos teóricos adquiridos em sala de aula.</p>
         <i class="fas fa-university"></i>
     </section>
     
-    <section class="servicos">
+    <section class="servicos" id="serviços">
         <div class="cab-servicos">
             <h2 class="titulo">Serviços que prestamos</h2>
         </div>
@@ -78,10 +104,10 @@
     <section class="agendar">
         <p>Procurando por uma consultoria de qualidade?<br>
             Agende sua primeira consultoria!</p>
-        <button><a href="#" >Agendar</a></button>
+        <button><a href="#contato" >Agendar</a></button>
     </section>
 
-    <section class="consultoria">
+    <section class="consultoria" id="consultoria">
         <div class="cabecalho-consultoria">
             <h2 class="titulo-consultoria">Processo de Consultoria</h2>
         </div>
@@ -117,7 +143,7 @@
         </div>
     </section>
     <div class="space"></div>
-    <section class="diretoria">
+    <section class="diretoria" id="diretoria">
         <div class="cabecalho-diretoria">
             <h2 class="titulo-diretoria">Diretoria</h2>
         </div>
@@ -179,7 +205,7 @@
         </div>
     </section>
     <div class="space"></div>
-    <section class="contato">
+    <section class="contato" id="contato">
         <div class="cabecalho-contato">
             <h2 class="titulo-contato">Contatos</h2>
         </div>
@@ -207,31 +233,27 @@
             </div>
         </div>
     </section>
-    <footer class="rodape">
-        <div class="container-rodape">
-            <div class="text1-rodape">
-                <a href="https://www.catiuespi.com/" target="_blank"><p>Feito com <i class="fas fa-heart"></i> pelo CATI</p></a>
+        <footer class="rodape">
+            <div class="container-rodape">
+                <div class="text1-rodape">
+                    <a href="https://www.catiuespi.com/" target="_blank"><p>Feito com <i class="fas fa-heart"></i> pelo CATI</p></a>
+                </div>
+        
             </div>
-            <div class="text2-rodape">
-                <p><a href="https://unsplash.com/" target="_blank">https://unsplash.com/</a></p>
-            </div>
-        <div class="icons-rodape">
-            <a href="https://www.facebook.com/MaeJrOficial" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com/maejunior" target="_blank"><i class="fab fa-instagram"></i></a>
-        </div>
-        </div>
-        <div class="rodape-links">
-            <a class="termos"href="#" target="_blank">Termos</a>
-            <a class="privacidade"href="#" target="_blank">Privacidade</a>    
-            <p>© 2021 CATI</p>
-        </div>
-    </footer>
-    <div class="hamburguer">
-        <div class="line" id="line1"></div>
-        <div class="line" id="line2"></div>
-        <div class="line" id="line3"></div>
-    </div>
-
-    <div class="sidebar"></div>
+                <div class="rodape-links">
+                    <div class="rodape-wrapper">
+                        <div class="links">
+                            <a id="inicio" href="#cabeçalho" target="_self">Inicio</a>
+                            <a id="termos" href="#" target="_self">Termos</a>
+                            <a id="privacidade"href="#" target="_self">Privacidade</a>
+                        </div>
+                        <div class="icons-rodape">
+                            <a href="https://www.facebook.com/MaeJrOficial" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.instagram.com/maejunior" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <span>© 2021 CATI</span>    
+                </div>
+        </footer>
 </body>
 </html>
