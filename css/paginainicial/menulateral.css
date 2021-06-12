@@ -103,11 +103,19 @@
     transition: all 1s;
 }
 
+.seleção {
+    transition: all 1s;
+}
+
 #ps-id:hover{
     color: yellow;
 }
 
 #blog-id:hover{
+    color: yellow;
+}
+
+#seleção-id:hover{
     color: yellow;
 }
 
