@@ -4,6 +4,12 @@
     background: #0a1e3a;  /* fallback for old browsers */
 }
 
+.rodape a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+}
+
 .container-rodape{
     width: 90%;
     margin: 0 auto;
@@ -48,11 +54,6 @@
     color: rgba(255,0,0,0.8);
 }
 
-a {
-    text-decoration: none;
-    color: white;
-    font-family: "Poppins";
-}
 .rodape span{
     font-family: "Poppins", sans-serif;
     padding: 10px 5px;

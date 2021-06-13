@@ -293,7 +293,6 @@ a {
     font-family: "Poppins", serif;
     font-size: 1.3rem;
     transition: color 1s;
-    padding: 0rem .8rem;
     border-radius: 5px;
     transition: all 1s;
 }
