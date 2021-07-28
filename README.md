@@ -1,2 +1,0 @@
-# maejr
-MaeJr Website
