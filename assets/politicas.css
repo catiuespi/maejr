@@ -15,6 +15,10 @@
     max-width: 1000px;
 }
 
+img {
+    max-width: 100%;
+}
+
 h2 {
     font: 2em 'Bebas Neue';
     letter-spacing: 1px;
